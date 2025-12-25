@@ -1,0 +1,54 @@
+.fullscreen-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;   
+  z-index: -1;         
+}
+
+
+.nav-container{
+  display: flex;
+  width: 100%;
+  padding: 40px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  margin-left: 150px;
+}
+.menu-items {
+  display: flex;             
+  gap: 30px;                  
+  align-items: center;
+  margin-right: 340px;
+}
+
+.menu-items a {
+  color: black;
+  font-size: larger;
+  text-decoration: none;
+}
+
+#Visit{
+  background: -tra;
+  display: flex;
+  margin-left: 150px;
+  background-color: snow;
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+#Visit:hover{
+  background-color: #FCC6FF;
+}
+
+.main-head{
+  display: flex;
+  font-size: 60px;
+  margin-left: 100px;
+}
+
